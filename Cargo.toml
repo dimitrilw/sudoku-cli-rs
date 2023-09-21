@@ -1,0 +1,15 @@
+[package]
+authors = ["DimitriLW <5898931+dimitrilw@users.noreply.github.com>"]
+name = "sudoku-cli-rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "sudoku"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.4", features = ["derive"] }
+sudoku = "0.7.0"
